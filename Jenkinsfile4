@@ -54,7 +54,7 @@ pipeline {
             }
         }
     }
-    post {
+    // post {
         // success { 
         //     slackSend message: "Build Started - ${env.JOB_NAME} ${env.BUILD_NUMBER} (<${env.BUILD_URL}|Open>)"
         // }
@@ -64,5 +64,5 @@ pipeline {
         // always {
         //     slackSend message: "Build Started - ${env.JOB_NAME} ${env.BUILD_NUMBER} (<${env.BUILD_URL}|Open>)"
         // }    
-    }
+    // }
 }
